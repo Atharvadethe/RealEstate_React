@@ -10,7 +10,7 @@
 8. FOOTER
 - - - - - - - - -  */
 
-/* 1. GENERAL  */
+/* <--------1. GENERAL --------> */
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
 * {
   box-sizing: border-box;
@@ -23,7 +23,7 @@ html {
 :root {
   /* ?Background color */
   --bg-blue: rgba(34, 137, 255, 1);
-  --bd-white: #fff;
+  --bg-white: #fff;
   --bg-gray: #ecf0f9;
 
   /* *Text color  */
@@ -82,6 +82,22 @@ h4 {
   line-height: 2.7rem;
   color: var(--text-black);
 }
+h5 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: var(--text-black);
+}
+h6 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: var(--text-gray);
+}
 p {
   font-family: var(--secondary-font);
   font-style: normal;
@@ -99,8 +115,39 @@ span {
   color: var(--text-gray);
 }
 
-/*! <------NAVBAR SECTION -------->*/
+.secondary-btn {
+  font-family: var(--secondary-font);
+  font-size: 1.2rem;
+  color: var(--bg-blue);
+  padding: 0.8rem 3rem;
+  border-radius: 5px;
+  border: 1px solid var(--bg-blue);
+}
+.secondary-btn:hover {
+  color: var(--text-white);
+  background-color: var(--bg-blue);
+  transition: 0.3s linear;
+}
+.primary-btn {
+  font-family: var(--secondary-font);
+  font-size: 1.2rem;
+  color: var(--text-white);
+  padding: 0.8rem 3rem;
+  border-radius: 5px;
+  background-color: var(--bg-blue);
+  border: 1px solid var(--bg-blue);
+}
+.primary-btn:hover {
+  color: var(--bg-blue);
+  background-color: var(--bg-white);
+  transition: 0.3s linear;
+}
+/*! <------2. NAVBAR SECTION -------->*/
 
+.navbar {
+  z-index: 100;
+  background-color: var(--bg-white);
+}
 .header_wrapper .navbar {
   -webkit-animation: all 0.2s linear;
   -o-animation: all 0.2s linear;
@@ -114,7 +161,10 @@ span {
 .header_wrapper .navbar-toggler:focus {
   box-shadow: none;
 }
-.nav-link {
+.header_wrapper .nav-item {
+  margin: 0 2rem;
+}
+.header_wrapper .nav-item .nav-link {
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 400;
@@ -122,16 +172,12 @@ span {
   line-height: 1.9rem;
   color: var(--text-black);
 }
-.nav-link:hover {
+.header_wrapper .nav-item .nav-link:hover {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.9rem;
   color: rgba(34, 137, 255, 1);
   transition: 0.3s linear;
-}
-
-.header_wrapper .nav-item .nav-link.active {
-  color: var(--secondary-color);
 }
 
 .header-scrolled {
@@ -141,7 +187,15 @@ span {
   left: 0;
   width: 100%;
   height: 85px;
-  background-color: var(--bd-white);
+  background-color: var(--bg-gray);
   box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
   -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
 }
+
+/*! <------3.  BANNER SECTION -------> */
+.banner-wrapper {
+  padding-top: 10rem;
+}
+/*! <--------4. WHY CHOOSE US --------> */
+
+/*! <--------5. FEATURES SECTION --------> */
