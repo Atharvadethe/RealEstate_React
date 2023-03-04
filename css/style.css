@@ -199,3 +199,6 @@ span {
 /*! <--------4. WHY CHOOSE US --------> */
 
 /*! <--------5. FEATURES SECTION --------> */
+.feature-wrapper {
+  padding-top: 10rem;
+}
