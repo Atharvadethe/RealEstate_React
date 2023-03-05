@@ -196,11 +196,37 @@ span {
 .banner-wrapper {
   padding-top: 10rem;
 }
-/*! <--------4. WHY CHOOSE US --------> */
+/*! <--------4. WHY CHOOSE US SECTION--------> */
 
 /*! <--------5. FEATURES SECTION --------> */
 .feature-wrapper {
   padding-top: 10rem;
 }
-.Icon {
+
+/*! <--------6. TESTIMONIAL SECTION --------> */
+.testimonial-wrapper {
+  background-image: url(/Images/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.users {
+  background-image: url(/Images/Users.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.rec {
+  background-image: url(/Images/Rectangle\ 3981.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 22rem;
+}
+
+/*! <--------7. NEWSLETTER--------> */
+.news-img {
+  background-image: url(/Images/bg1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
