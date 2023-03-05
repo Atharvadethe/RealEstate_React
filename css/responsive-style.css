@@ -16,7 +16,7 @@
 }
 @media only screen and (min-width: 576px) and (max-width: 769px) {
   html {
-    font-size: 40%;
+    font-size: 50%;
   }
   .header-scrolled {
     height: auto;
