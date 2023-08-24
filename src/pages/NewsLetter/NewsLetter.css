@@ -1,0 +1,6 @@
+.news-img {
+  background-image: url(/public/Assets/bg1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

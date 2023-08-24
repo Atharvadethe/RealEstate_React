@@ -1,0 +1,18 @@
+.testimonial-wrapper {
+  background-image: url(/public/Assets/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.users {
+  background-image: url(/public/Assets/Users.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.rec {
+  background-image: url(/public/Assets/Rectangle\ 3981.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 22rem;
+}

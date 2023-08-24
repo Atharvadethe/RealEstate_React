@@ -1,0 +1,13 @@
+.secondary-btn {
+  font-family: var(--secondary-font);
+  font-size: 1.2rem;
+  color: var(--bg-blue);
+  padding: 0.8rem 3rem;
+  border-radius: 5px;
+  border: 1px solid var(--bg-blue);
+}
+.secondary-btn:hover {
+  color: var(--text-white);
+  background-color: var(--bg-blue);
+  transition: 0.3s linear;
+}

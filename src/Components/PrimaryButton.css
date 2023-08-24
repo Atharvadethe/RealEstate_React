@@ -1,0 +1,14 @@
+.primary-btn {
+  font-family: var(--secondary-font);
+  font-size: 1.2rem;
+  color: var(--text-white);
+  padding: 0.8rem 3rem;
+  border-radius: 5px;
+  background-color: var(--bg-blue);
+  border: 1px solid var(--bg-blue);
+}
+.primary-btn:hover {
+  color: var(--bg-blue);
+  background-color: var(--bg-white);
+  transition: 0.3s linear;
+}
