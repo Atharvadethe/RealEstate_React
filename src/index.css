@@ -1,1 +1,67 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 40%;
+  }
+  .header-scrolled {
+    height: auto;
+  }
+  .header_wrapper .menu-navbar-nav {
+    text-align: center;
+    background-color: var(--bg-white);
+    padding-bottom: 1.5rem;
+  }
+  .header_wrapper .nav-item .nav-link {
+    margin-top: 1.5rem;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 769px) {
+  html {
+    font-size: 50%;
+  }
+  .header-scrolled {
+    height: auto;
+  }
+  .header_wrapper .menu-navbar-nav {
+    text-align: center;
+    background-color: var(--bg-white);
+    padding-bottom: 1.5rem;
+  }
+  .header_wrapper .nav-item .nav-link {
+    margin-top: 1.5rem;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  html {
+    font-size: 45%;
+  }
+  .header-scrolled {
+    height: auto;
+  }
+  .header_wrapper .menu-navbar-nav {
+    text-align: center;
+    background-color: var(--bg-white);
+    padding-bottom: 1.5rem;
+  }
+  .header_wrapper .nav-item .nav-link {
+    margin-top: 1.5rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  html {
+    font-size: 65%;
+  }
+}
