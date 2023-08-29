@@ -35,7 +35,7 @@ function Banner() {
                     <h5>City</h5>
                     <h6>El Paso, Texas</h6>
                   </div>
-                  <div className="ms-5">
+                  <div className="ms-5 mt-3">
                     <PrimaryButton className="my-auto" name="Search" />
                   </div>
                 </div>

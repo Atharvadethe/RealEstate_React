@@ -6,7 +6,7 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 function Card(props) {
   return (
-    <div className="col-7 col-sm-6 col-md-6 mb-5 mx-auto">
+    <div className="col-10 text-center text-sm-start col-sm-6 col-md-6 mb-5 mx-auto">
       <div className="card mb-3 border-1 shadow">
         <div className="row g-0">
           <div className="col-12 col-md-4 text-center">
@@ -15,7 +15,7 @@ function Card(props) {
           <div className="col-md-8">
             <div className="card-body">
               <div className="d-flex justify-content-between">
-                <h3 className="card-title fw-bold text-primary">
+                <h3 className="card-title fw-bold text-primary mx-auto ms-sm-0">
                   {props.style.price}
                 </h3>
                 <FontAwesomeIcon
@@ -43,7 +43,7 @@ function Card(props) {
               />
 
               <span>{props.style.bed}</span>
-              <button className="secondary-btn d-block mt-4">
+              <button className="secondary-btn d-block mt-4 mx-auto mx-sm-0">
                 View Details
               </button>
             </div>
