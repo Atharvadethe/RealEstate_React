@@ -10,7 +10,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg fixed-top">
           <div className="container">
             <a className="navbar-brand">
-              <img src="Assets/logo.png" className="img-fluid" alt="logo" />
+              <img src="/Assets/logo.png" className="img-fluid" alt="logo" />
             </a>
 
             <button
