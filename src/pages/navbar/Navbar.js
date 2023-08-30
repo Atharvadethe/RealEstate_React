@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import PrimaryButton from "../../Components/PrimaryButton";
 import SecondaryButton from "../../Components/SecondaryButton";
-
+import logo from "../../Logo.png";
 function Navbar() {
   return (
     <>
@@ -10,7 +10,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg fixed-top">
           <div className="container">
             <a className="navbar-brand">
-              <img src="/Assets/logo.png" className="img-fluid" alt="logo" />
+              <img src={logo} className="img-fluid" alt="logo" />
             </a>
 
             <button
