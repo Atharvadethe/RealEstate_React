@@ -43,7 +43,7 @@ function Footer() {
               <img className="img-fluid" src="/Images/footer-logo.png" alt="" />
             </div>
             <div className="col-6 col-sm-4">
-              <span>© 2021 Besnik. All Rights Reserved</span>
+              <span>© 2024 UrbanNest. All Rights Reserved</span>
             </div>
           </div>
         </div>

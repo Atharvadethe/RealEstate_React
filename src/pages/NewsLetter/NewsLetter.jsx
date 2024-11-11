@@ -9,7 +9,7 @@ function NewsLetter() {
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-12 col-sm-6">
-            <h2 className="text-light my-4">Talk to a Redfin agent</h2>
+            <h2 className="text-light my-4">Talk to a UrbanNest agent</h2>
             <p className="text-light me-5 me-sm-0">
               Start your search with an expert local agent—there’s no pressure
               or obligation.

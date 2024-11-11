@@ -7,20 +7,20 @@ function ChooseUs() {
       image: "Assets/icon 01.png",
       heading: "Buy a Home",
       paragraph:
-        " With over 1 million+ homes for sale available on the website, Trulia can match you with a house.",
+        " With over 10 Lakhs+ homes for sale available on the website.",
     },
     {
       image: "Assets/icon 02.png",
       heading: "Rent a Home",
       paragraph:
-        "With 35+ filters and custom keyword search, Trulia can help you find a home.",
+        "With 35+ filters and custom keyword search.",
       shadow: "shadow",
     },
     {
       image: "Assets/icon 03.png",
-      heading: "See neighborhoods",
+      heading: "See neighborhood",
       paragraph:
-        "With more neighborhood insights than any other real estate website.",
+        "With more neighbourhood insights than any other real estate website.",
     },
   ];
 

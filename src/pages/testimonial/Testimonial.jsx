@@ -20,20 +20,20 @@ function Testimonial() {
         </div>
         <div className="row users">
           <div className="col text-center">
-            <img className="img-fluid" src="Assets/image5.png" alt="" />
+            <img className="img-fluid" src="\Assets\mukesh.jpeg" id="xyz" alt="" />
           </div>
         </div>
 
         <div className="row rec">
           <div className="col text-center mt-5">
             <span className="">
-              "We are very pleased with the way Besnik handled our purchase of
+              "We are very pleased with the way UrbanNest handled our purchase of
               <br />
               a lake home. He was prompt, friendly, and very knowledgeable. He
               <br />
               followed up on any and all concerns.
             </span>
-            <h4 className="my-3 fw-bold">Becky Nelson</h4>
+            <h4 className="my-3 fw-bold">Mukesh Ambani</h4>
             <img src="/Images/Group 101.png" alt="" />
           </div>
         </div>

@@ -10,7 +10,7 @@ function Features() {
           <div className="col-12 col-sm-6 col-md-5 text-center text-sm-start">
             <h2 className="mb-5">
               Our trending latest <br />
-              proparty
+              property
             </h2>
             <span>
               Our unique process gives you peace of mind from home rent to
@@ -37,7 +37,7 @@ function Features() {
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    High Prives
+                    High Prices
                   </a>
                 </li>
                 <li>

@@ -9,7 +9,7 @@ function Banner() {
           <div className="row align-item-center flex-md-row-reverse">
             <div className="col-md-6 text-center">
               <img
-                src="Assets/hero image.png"
+                src="Assets/icon-10.png"
                 className="img-fluid"
                 alt="Banner"
               />
@@ -20,8 +20,7 @@ function Banner() {
                 Homes in your Neighborhood
               </h1>
               <p className="mt-4 mx-5 mx-sm-0">
-                Online Estate Agency, the modern way to sell your own home. You
-                can use griffin residential to market your property.
+              Online Estate Agency offers a modern approach to selling your home. Market your property with Griffin Residential for a streamlined experience.
               </p>
               <div className="position-relative mt-5">
                 <img className="img-fluid" src="Assets/image 524.png" alt="" />
@@ -29,11 +28,11 @@ function Banner() {
                 <div className="d-flex mt-4 ms-4 position-absolute top-0 start-0">
                   <div className="ms-5 ms-sm-4">
                     <h5>Address</h5>
-                    <h6>587 Bridgeton Road</h6>
+                    <h6>29, Raddison Blu</h6>
                   </div>
                   <div className="mx-4">
-                    <h5>City</h5>
-                    <h6>El Paso, Texas</h6>
+                    <h5>Nagpur</h5>
+                    <h6>near Center Point</h6>
                   </div>
                   <div className="ms-5 mt-3">
                     <PrimaryButton className="my-auto" name="Search" />
